@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    align-items: center; /*centralização horizontal */
+    justify-content: center; /*centralização vertical */
+    height: 100vh; /*100% da altura da parte visivel */
+}
+
+#container {
+    width: 400px;
+    height: 400px;
+    border: 1px solid #000;
+    position: absolute; /*position no elemento pai pra servir de referencia para os filhos*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#container #bnt {
+    
+}
+
+#container div {
+    width: 100px;
+    height: 100px;
+    background-color: #999;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#container #bola-01 {
+    background-color: #f00;
+    position: absolute; /*position filho */
+    top: 10px;
+    left: 10px;
+}
+
+#container #bola-02 {
+    background-color: #00f;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+#container #bola-03 {
+    background-color: #3f0;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
+
+#container #bola-04 {
+    background-color: #fb0;
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+}
