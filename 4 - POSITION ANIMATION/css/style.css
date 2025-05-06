@@ -15,7 +15,7 @@ body {
     width: 400px;
     height: 400px;
     border: 1px solid #000;
-    position: absolute; /*position no elemento pai pra servir de referencia para os filhos*/
+    position: relative; /*position no elemento pai pra servir de referencia para os filhos*/
     display: flex;
     align-items: center;
     justify-content: center;
